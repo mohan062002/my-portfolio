@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.10968a07.css",
+    "main.js": "/my-portfolio/static/js/main.d8f0f1eb.js",
+    "static/js/787.ae61a12f.chunk.js": "/my-portfolio/static/js/787.ae61a12f.chunk.js",
+    "static/media/rental.png": "/my-portfolio/static/media/rental.852e57a0bf35a5170952.png",
+    "static/media/news.png": "/my-portfolio/static/media/news.00526821641373a80a2d.png",
+    "static/media/myimg.png": "/my-portfolio/static/media/myimg.264bfff6f1708a6a3029.png",
+    "static/media/expence.png": "/my-portfolio/static/media/expence.ebf31fb63a1a56470236.png",
+    "static/media/—Pngtree—flat design concept of programmers_5870919.png": "/my-portfolio/static/media/—Pngtree—flat design concept of programmers_5870919.9faa3362e2aba5412d79.png",
+    "static/media/background.jpg": "/my-portfolio/static/media/background.012e1b7814cf938b7e79.jpg",
+    "static/media/cv.pdf": "/my-portfolio/static/media/cv.977f4b1db39ab556af0c.pdf",
+    "static/media/leetcode.png": "/my-portfolio/static/media/leetcode.70f4e3a27f634abf5d6d.png",
+    "static/media/cheff.png": "/my-portfolio/static/media/cheff.c669034d2ab6d559748b.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.10968a07.css.map": "/my-portfolio/static/css/main.10968a07.css.map",
+    "main.d8f0f1eb.js.map": "/my-portfolio/static/js/main.d8f0f1eb.js.map",
+    "787.ae61a12f.chunk.js.map": "/my-portfolio/static/js/787.ae61a12f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10968a07.css",
+    "static/js/main.d8f0f1eb.js"
+  ]
+}
