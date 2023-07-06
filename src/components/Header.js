@@ -5,6 +5,7 @@ import background from "../accets/background.jpg";
 import Conect from "./Conect";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import { animateScroll } from 'react-scroll';
+import Typewriter from 'typewriter-effect';
 import "aos/dist/aos.css";
 import Aos from "aos";
 
@@ -43,21 +44,33 @@ const Header = () => {
         id="header"
         className="absolute inset-0 flex-col items-center justify-center mt-8"
       >
+       
+       
+            
+        
+      
+
         <h1
-         
-          className="text-cyan-500 font-serif text-xl text-center "
-        >
-          Hello I'm
-        </h1>
-        <h1
-         
-          className="text-white font-serif  text-xl lg:text-5xl   mt-[5xl] lg:mt-[15px] text-center"
+         className="text-white font-serif  text-xl lg:text-5xl   mt-[5xl] lg:mt-[15px] text-center"
         >
           Mohan Renukadas Agarmore
         </h1>
 
+        <div className="text-center flex justify-center items-center mt-2 ">
+          <p className="text-base md:text-2xl font-serif text-white">I'm </p>
+           <h1 className="text-cyan-400 text-sm md:text-xl font-serif underline underline-offset-4 decoration-cyan-800">
+            <Typewriter
+            options={{
+              strings: ['An aspiring Software developer', 'Tech Enthuziastic', 'Full stack web developer', 'Compitative programmer'],
+              autoStart: true,
+              loop: true,
+              wrapperClassName: "text-cyan p-1 border-blue-400"
+            }}
+          />
+           </h1>
+        </div>
 
-        <div className="flex  justify-center mt-[30px] ">
+        <div className="flex  justify-center mt-5 ">
           <button
             
             className="bg-transparent hover:bg-cyan-500 text-cyan-500 font-semibold hover:text-white py-2 px-4 border border-cyan-500 hover:border-transparent rounded justify-center"
@@ -65,6 +78,7 @@ const Header = () => {
             <a href={cv} download>
               download
             </a>
+            
           </button>
 
           <button
@@ -86,7 +100,7 @@ const Header = () => {
 
           <div
             
-            className="  h-auto  lg:max-w-xs   ml-[50px] bg-gradient-to-r from-cyan-500 to-cyan-900 rounded-t-full"
+            className="  h-auto  lg:max-w-xs   ml-[50px] bg-gradient-to-r from-cyan-500 to-cyan-900 rounded-t-full border-gradient-animation"
           >
             <img src={myimg} alt="selfpicture" />
           </div>

@@ -49,12 +49,12 @@ export default function Codingplatform() {
         </div>
 
          
-       <div className="flex flex-col ml-[50px]    md:flex-row  justify-center md:gap-7"id='profile'>
+       <div className="flex flex-col ml-[50px]  md:flex-row  justify-center md:gap-7" id='profile'>
       {platform.map((e) => {
           return( 
-          <div data-aos="fade-up" className="bg-cyan-500 rounded-xl flex-wrap p-2 mx-4 mb-[20px] w-[250px] md:w-[350px] transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-300">
+          <div data-aos="fade-up" className="bg-cyan-500 rounded-xl flex-wrap p-2 mx-4 mb-[20px] w-[250px] md:w-[350px]  hover:transition-ease-in-out hover:scale-110  duration-300">
               <a href={e.plink}>
-              <img src={e.pimage} alt="" className="rounded-xl h-[150px]  md:h-[200px] hover:brightness-50" />
+              <img src={e.pimage} alt="" className="rounded-xl h-[150px]  md:h-[200px] hover:brightness-50  hover:scale-110  duration-300" />
               </a>
               {/* <h1 className="text-center text-xl text-white">{e.pname}</h1> */}
           </div>)

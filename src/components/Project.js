@@ -15,7 +15,7 @@ export default function Project() {
 
         <div class="inline-flex items-center justify-center w-full">
           <hr class="w-96 h-1 my-4 bg-cyan-800 border-0 rounded" />
-          <div  class="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
+          <div  class="absolute px-4 -translate-x-1/2 bg-black left-1/2 ">
             <FaAward color="cyan" size={25}/>
           </div>
         </div>

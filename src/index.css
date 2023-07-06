@@ -4,6 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@keyframes gradientAnimation {
+  0% { background-position: 0 0; }
+  100% { background-position: 200% 0; }
+}
+
+.border-gradient-animation {
+  animation: gradientAnimation 5s linear infinite;
+  border-width: 4px;
+  border-style: solid;
+  background-image: linear-gradient(to right, #41b6e7, #135073, #28aaaa, #0a5981, #41b6e7);
+  background-size: 200% 100%;
+  border-image-slice: 1;
+}
+
+
+
  #bg-color{
   background-color: #0f1727;
 }

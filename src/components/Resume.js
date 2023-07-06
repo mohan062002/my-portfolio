@@ -35,17 +35,18 @@ export default function Resume() {
 
                     <div className="hidden md:block">
                       <h1 className="  ">
-                        <em data-aos="fade-left" className="date text-white bg-cyan-700 bg-opacity-50 px-2 py-1 rounded-xl ml-2">
-                          {item.YearOfPassing}
+                        <em data-aos="fade-left" className=" text-white bg-cyan-700 bg-opacity-50 px-2 py-1 rounded-xl ml-2 border-2 border-cyan-400">
+                        {item.starting}-{item.YearOfPassing}
                         </em>
+                      
                       </h1>
                     </div>
 
-                  <div className="border-2 border-cyan-400 bg-cyan-400 rounded-full w-4 h-4 relative left-[20px] overflow-visible"></div>
+                  <div className="border-2 border-cyan-800 bg-cyan-800 rounded-full w-4 h-4 relative left-[20px] overflow-visible"></div>
 
 
                     <div  className=" ml-3 w-[340px] sm:w-[400px] md:w-[530px] lg:w-[600px] ">
-                         <em  className="date text-white bg-cyan-700 bg-opacity-50 px-2 py-1 rounded-xl ml-4  ">
+                         <em  className="date text-white bg-cyan-700 bg-opacity-50 px-2 py-1 rounded-xl ml-4 md:hidden block ">
                           {item.starting}-{item.YearOfPassing}
                         </em>
                       
